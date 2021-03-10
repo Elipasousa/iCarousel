@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		821507391E5746F000C75711 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 821507371E5746F000C75711 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8215073A1E5746F000C75711 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 821507381E5746F000C75711 /* iCarousel.m */; };
+		D7E76D0C25F8F70100E5B447 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E76D0B25F8F70100E5B447 /* iCarousel.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8215072B1E57468200C75711 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8215072F1E57468200C75711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		821507371E5746F000C75711 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		821507381E5746F000C75711 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		821507421E57475B00C75711 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E76D0B25F8F70100E5B447 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = include/iCarousel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		8215072D1E57468200C75711 /* iCarousel */ = {
 			isa = PBXGroup;
 			children = (
-				821507371E5746F000C75711 /* iCarousel.h */,
+				D7E76D0A25F8F6F700E5B447 /* include */,
 				821507381E5746F000C75711 /* iCarousel.m */,
 				8215073B1E5746F400C75711 /* Supporting Files */,
 			);
@@ -72,6 +72,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7E76D0A25F8F6F700E5B447 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D7E76D0B25F8F70100E5B447 /* iCarousel.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -79,7 +87,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				821507391E5746F000C75711 /* iCarousel.h in Headers */,
+				D7E76D0C25F8F70100E5B447 /* iCarousel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +161,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 821507211E57468200C75711;
@@ -404,6 +413,7 @@
 				821507491E57475B00C75711 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
